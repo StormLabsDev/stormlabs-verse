@@ -1,0 +1,57 @@
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# Local assistant instructions and configuration, at any depth
+AGENTS.md
+AGENTS.override.md
+CLAUDE.md
+.agents/
+.claude/
+.codex/
+
+# Generated Unreal/UEFN project and editor state
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.uefn/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Task scratch data and generated output
+/work/
+/dist/
+/logs/
+/scratch/
+/tmp/
+/temp/
+/recovery/
+/backups/
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.pyc
+
+# Local correctness harnesses, known-answer vectors, and toolchain scratch data
+/tests/
+/.local-tests/
+/benchmarks/
+/vectors/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
